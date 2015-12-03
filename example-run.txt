@@ -1,0 +1,49 @@
+==Frequent itemsets (min_sup=20%)
+['A'], 73.5493%
+['Fall-GRADE DATE'], 24.0815%
+['MANHATTAN'], 40.5683%
+['Summer-GRADE DATE'], 25.4804%
+['Spring-GRADE DATE'], 28.4562%
+['Not Critical'], 47.0749%
+['Fall-INSPECTION DATE'], 24.0815%
+['Summer-INSPECTION DATE'], 25.4804%
+['Winter-INSPECTION DATE'], 21.9816%
+['Critical'], 52.925%
+['Asian'], 23.0661%
+['Spring-INSPECTION DATE'], 28.4562%
+['NorthAmerican'], 41.805%
+['QUEENS'], 22.9687%
+['BROOKLYN'], 23.7395%
+['Winter-GRADE DATE'], 21.9816%
+['A', 'MANHATTAN'], 30.1729%
+['A', 'Spring-GRADE DATE'], 21.5734%
+['A', 'Not Critical'], 38.3034%
+['A', 'Critical'], 35.2458%
+['A', 'Spring-INSPECTION DATE'], 21.5734%
+['A', 'NorthAmerican'], 31.6702%
+['Fall-GRADE DATE', 'Fall-INSPECTION DATE'], 24.0815%
+['Critical', 'MANHATTAN'], 21.6886%
+['Summer-GRADE DATE', 'Summer-INSPECTION DATE'], 25.4804%
+['Spring-GRADE DATE', 'Spring-INSPECTION DATE'], 28.4562%
+['NorthAmerican', 'Not Critical'], 20.1323%
+['Winter-GRADE DATE', 'Winter-INSPECTION DATE'], 21.9816%
+['Critical', 'NorthAmerican'], 21.6726%
+['A', 'Spring-GRADE DATE', 'Spring-INSPECTION DATE'], 21.5734%
+
+==High-confidence association rules (min_conf=73%)
+['MANHATTAN'] => ['A'] (Conf: 74.3756%,Supp: 30.1729%)
+['Spring-GRADE DATE'] => ['A'] (Conf: 75.8125%,Supp: 21.5734%)
+['Not Critical'] => ['A'] (Conf: 81.367%,Supp: 38.3034%)
+['Spring-INSPECTION DATE'] => ['A'] (Conf: 75.8125%,Supp: 21.5734%)
+['NorthAmerican'] => ['A'] (Conf: 75.757%,Supp: 31.6702%)
+['Fall-INSPECTION DATE'] => ['Fall-GRADE DATE'] (Conf: 100.0%,Supp: 24.0815%)
+['Fall-GRADE DATE'] => ['Fall-INSPECTION DATE'] (Conf: 100.0%,Supp: 24.0815%)
+['Summer-INSPECTION DATE'] => ['Summer-GRADE DATE'] (Conf: 100.0%,Supp: 25.4804%)
+['Summer-GRADE DATE'] => ['Summer-INSPECTION DATE'] (Conf: 100.0%,Supp: 25.4804%)
+['Spring-INSPECTION DATE'] => ['Spring-GRADE DATE'] (Conf: 100.0%,Supp: 28.4562%)
+['Spring-GRADE DATE'] => ['Spring-INSPECTION DATE'] (Conf: 100.0%,Supp: 28.4562%)
+['Winter-INSPECTION DATE'] => ['Winter-GRADE DATE'] (Conf: 100.0%,Supp: 21.9816%)
+['Winter-GRADE DATE'] => ['Winter-INSPECTION DATE'] (Conf: 100.0%,Supp: 21.9816%)
+['Spring-GRADE DATE', 'Spring-INSPECTION DATE'] => ['A'] (Conf: 75.8125%,Supp: 21.5734%)
+['A', 'Spring-INSPECTION DATE'] => ['Spring-GRADE DATE'] (Conf: 100.0%,Supp: 21.5734%)
+['A', 'Spring-GRADE DATE'] => ['Spring-INSPECTION DATE'] (Conf: 100.0%,Supp: 21.5734%)
